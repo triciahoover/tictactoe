@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<center>
+Welcome to Tic Tac Toe!
+</center>
+<style>
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding:20px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<div> 
+  <form method="post" action="play">
+  <input type="hidden" value = "X" name="a1" border:0px size="0">
+  <input type="text" style="background-color:transparent;border:0px solid white;" name="a1" size="1">
+  <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="0">
+</div>
+<div> 
+  <form method="post" action="play">
+  <input type="hidden" value = "X" name="a2" border:0px size="0">
+  <input type="text"  style="background-color:transparent;border:0px solid white;" name="a2" size="1">
+  <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="0">
+</div>
+<div> 
+  <form method="post" action="play">
+    <input type="hidden" value = "X" name="a3" border:0px size="0">
+   <input type="text"  style="background-color:transparent;border:0px solid white;" name="a3" size="1">
+   <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="0"> 
+</div>
+   
+</div>
+<br>
+<div class="flex-container">
+<div>
+    <form method="post" action="play">
+      <input type="hidden" value = "X" name="b1" size="0">
+      <input type="text"  style="background-color:transparent;border:0px solid white;" name="b1" size="1">
+    <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size=".5">
+</div>
+<div> 
+    <form method="post" action="play">
+    <input type="hidden" value = "X" name="b2" size="0">
+    <input type="text"  style="background-color:transparent;border:0px solid white;" name="b2" size="1">
+    <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size=".5">
+</div>
+<div>
+    <form method="post" action="play">
+    <input type="hidden" value = "X" name="b3" size="0">
+    <input type="text"  style="background-color:transparent;border:0px solid white;" name="b3" size="1">
+    <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size=".5">
+</div>  
+</div>
+<br>
+<div class="flex-container">
+<div>
+    <form method="post" action="play"> 
+    <input type="hidden" value = "X" name="c1">
+    <input type="text"  style="background-color:transparent;border:0px solid white;" name="c1" size="1">
+    <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="0">
+</div>
+<div>
+    <form method="post" action="play">
+    <input type="hidden" value = "X" name="c2"> 
+    <input type="text"  style="background-color:transparent;border:0px solid white;" name="c2" size="1">
+    <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="0">
+</div>
+<div> 
+    <form method="post" action="play">
+    <input type="hidden" value = "X" name="c3">
+    <input type="text"  style="background-color:transparent;border:0px solid white;" name="c3" size="1">
+    <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="0">
+</div>  
+</div>
+
+</body>
+</html>

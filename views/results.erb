@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<center>
+Thank you for your play!
+</center>
+<style>
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding:20px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <div>
+<% if a1 == "X" %>
+X
+<% elsif a1 == "O" %>
+O
+<% else %>
+<form method="post" action="play">
+<input type="hidden" value = "X" name="a1">
+<input type="text"  style="background-color:transparent;border:0px solid white;" name="a1" size="1">
+<input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="1">
+<% end %>
+</div>
+<div> 
+<% if a2 == "X" %>
+X
+<% elsif a2 == "O" %>
+O
+<% else %>
+  <form method="post" action="play">
+  <input type="hidden" value = "X" name="a2">
+  <input type="text"  style="background-color:transparent;border:0px solid white;" name="a2" size="1"> 
+  <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="1">
+<% end %>
+</div>
+<div> 
+<% if a3 == "X" %>
+X
+<% elsif a3 == "O" %>
+O
+<% else %>
+  <form method="post" action="play">
+  <input type="hidden" value = "X" name="a3">
+  <input type="text"  style="background-color:transparent;border:0px solid white;" name="a3" size="1"> 
+  <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="1">
+<% end %>
+ </div> 
+</div>
+<br>
+<div class="flex-container">
+<div>
+<% if b1 == "X" %>
+X
+<% elsif b1 == "O" %>
+O
+<% else %>
+  <form method="post" action="play">
+  <input type="hidden" value = "X" name="b1"> 
+  <input type="text"  style="background-color:transparent;border:0px solid white;" name="b1" size="1">
+  <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="1">
+<% end %>
+</div>
+<div>
+<% if b2 == "X" %>
+X
+<% elsif b2 == "O" %>
+O
+<% else %>
+  <form method="post" action="play">
+  <input type="hidden" value = "X" name="b2"> 
+  <input type="text"  style="background-color:transparent;border:0px solid white;" name="b2" size="1">
+  <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="1">
+<% end %>
+</div>
+<div>
+<% if b3 == "X" %>
+X
+<% elsif b3 == "O" %>
+O
+<% else %>
+  <form method="post" action="play">
+  <input type="hidden" value = "X" name="b3">
+  <input type="text"  style="background-color:transparent;border:0px solid white;" name="b3" size="1">
+  <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="1">
+<% end %>
+</div>  
+</div>
+<br>
+<div class="flex-container">
+  <div>
+<% if c1 == "X" %>
+X
+<% elsif c1 == "O" %>
+O
+<% else %>
+  <form method="post" action="play"> 
+  <input type="hidden" value = "X" name="c1">
+  <input type="text"  style="background-color:transparent;border:0px solid white;" name="c1" size="1">
+  <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="1">
+<% end %>
+</div>
+<div>
+<% if c2 == "X" %>
+X
+<% elsif c2 == "O" %>
+O
+<% else %>
+  <form method="post" action="play">
+  <input type="hidden" value = "X" name="c2"> 
+  <input type="text"  style="background-color:transparent;border:0px solid white;" name="c2" size="1">
+  <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="1">
+<% end %>
+</div>
+<div>
+<% if c3 == "X" %>
+X
+<% elsif c3 == "O" %>
+O
+<% else %>
+  <form method="post" action="play">
+  <input type="hidden" value = "X" name="c3">
+  <input type="text"  style="background-color:transparent;border:0px solid white;" name="c3" size="1">
+  <input type="submit" value = " " style="background-color:transparent;border:0px solid white;" size="1">
+<% end %>
+</div>  
+</div>
+
+
+</body>
+</html>
